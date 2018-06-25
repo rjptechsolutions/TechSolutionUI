@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Interview Questions</title>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+    <!--Import materialize.css-->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+    <!--custome css and js link-->
+    <link href="style.css" rel="stylesheet">
+    <script type="text/javascript" src="main.js"></script>
+</head>
+<body>
+        <body id="home" class="scrollspy">
+                <!--nav bar-->
+             <div class="navbar-fixed">
+                 <nav class="blue">
+                     <div class="container">
+                         <div class="nav-wrapper">
+                             <a href="index.html" class="brand-logo">TechSolutions</a>
+                             <a href="#" data-target="mobile-nav" class="sidenav-trigger">
+                                 <i class="material-icons">menu</i>
+                             </a>
+                             <ul class="right hide-on-med-and-down">
+                                 <li>
+                                     <a href="index.html#home">Home</a>
+                                 </li>
+                                 <li>
+                                     <a href="index.html#interviewq">Interview Questions</a>
+                                 </li>
+                                 <li>
+                                     <a href="index.html#programs">Programs</a>
+                                 </li>
+                                 <li>
+                                    <a href="index.html#uploads">Uplods</a>
+                                </li>
+                                <li>
+                                  <a href="index.html#findus">Find Us</a>
+                                </li>
+                                 <li>
+                                     <a href="index.html#about">About</a>
+                                 </li>
+                                 <li>
+                                     <a href="index.html#contact">Contact</a>
+                                 </li>
+                                 
+                             </ul>
+                         </div>
+                     </div>
+                 </nav>
+             </div>
+             <!--nav slider-->
+             <ul class="sidenav" id="mobile-nav">
+                 <li>
+                     <a href="index.html#home">Home</a>
+                 </li>
+                 <li>
+                     <a href="index.html#interviewq">Interview Questions</a>
+                 </li>
+                 <li>
+                     <a href="index.html#programs">Programs</a>
+                 </li>
+                 <li>
+                     <a href="index.html#uploads">Uplods</a>
+                 </li>
+                 <li>
+                    <a href="index.html#findus">Find Us</a>
+                </li>
+                 <li>
+                     <a href="index.html#about">About</a>
+                 </li>
+                 <li>
+                     <a href="index.html#contact">Contact</a>
+                 </li>
+                 </ul> 
+                 <!--Working starts-->
+                 <div class="card">
+                        <div class="card-content">
+                            <!--problem Statement-->
+                            <ul class="collection with-header">
+                                    <li class="collection-header"><h4>Fibonacci Series Program</h4></li>
+                                    <li class="collection-item">Problem Statement :-<p>
+                                            Write a Program that return fibonacci series          
+                                    </p></li>
+                                    <li class="collection-item">Description :- <p>
+                                            In fibonacci series, next number is the sum of previous two numbers. 
+                                    </p></li>
+                                    <li class="collection-item">Fibonacci series algorithm :- <p>
+                                            example 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55 etc. The first two numbers of fibonacci series are 0 and 1.<br>
+                                            There are two ways to write the fibonacci series program in java:<br>
+
+                                            Fibonacci Series without using recursion<br>
+                                            Fibonacci Series using recursion<br>
+ 
+                                    </p></li>
+                                    <li class="collection-item">Code :-</li>
+                            </ul>
+
+                            
+                            <ul class="collapsible">
+                                    <li>
+                                      <div class="collapsible-header"><i class="material-icons">J</i>Java</div>
+                                      <div class="collapsible-body"><span><img src="images/fsj.PNG"></span></div>
+                                    </li>
+                                    <li>
+                                      <div class="collapsible-header"><i class="material-icons">C</i>C</div>
+                                      <div class="collapsible-body"><span><img src="images/fsc.PNG"></span></div>
+                                    </li>
+                                   
+                                  </ul>
+                        </div>
+                       <div style="padding-bottom: 20px;">
+                           <center>
+                            <a href="uplang.html"  class="btn-floating blue btn-large"><i class="large material-icons">add</i></a>
+                           </center>
+                       </div>
+
+                   <!--Footer-->
+             <footer class="section blue darken-2 white-text center">
+                    <p class="flow-text">TechSolutions &copy; 2018</p>
+                </footer>
+            
+                <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+                
+                <!-- Compiled and minified JavaScript -->
+                   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+                    <!--Import jQuery before materialize.js-->
+                  
+           <!--sidenav -->
+           <script>
+                const sidenav=document.querySelector('.sidenav');
+                M.Sidenav.init(sidenav,{});
+                 
+               //collabs
+                document.addEventListener('DOMContentLoaded', function() {
+                 var elems = document.querySelector('.collapsible');
+                var instances = M.Collapsible.init(elems, options);
+                });
+
+                // Or with jQuery
+
+                $(document).ready(function(){
+                $('.collapsible').collapsible();
+                });
+               
+                //Toast msg
+               // M.toast({html: 'Add New Language'})
+
+                //materialbox
+                const mb= document.querySelectorAll('.materialboxed');
+                M.Materialbox.init(mb,{});
+     
+                //scrollspy
+                const ss= document.querySelectorAll('.scrollspay');
+                M.ScrollSpy.init(ss,{});
+            </script>
+       </body>
+     </html>
+        
